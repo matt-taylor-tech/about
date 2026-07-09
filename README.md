@@ -12,7 +12,7 @@ IT Director and hands-on engineer running IT end to end for a national food sale
 
 ## Experience
 
-### IT Director · Affinity Group · Charlotte, NC · Oct 2022 to Present
+### IT Director · National Food Brokerage · Charlotte, NC · Oct 2022 to Present
 
 Own IT end to end for a national food sales and brokerage organization: 1,000+ employees, 80+ locations, on a three-person team.
 
@@ -31,7 +31,7 @@ Own IT end to end for a national food sales and brokerage organization: 1,000+ e
 - Architected and deployed an autonomous IT operations agent: a Python and Supabase platform unifying the team's source systems (ITSM, identity, remote support, network, endpoint security) that posts diagnostic notes on new tickets with machine and network context and screenshot reading via vision, running on Azure Functions with a read-and-suggest default and confirm-gated actions.
 - Built and deployed a live Model Context Protocol (MCP) server (Python, FastMCP on Azure Container Apps) exposing the team's operational systems to Claude and Cowork as one namespaced connector of 35 tools, with a set of governed write tools whose trust boundary sits at the identity layer (Entra OAuth connector plus delegated Graph on-behalf-of scoping).
 
-### IT Manager · Ross & Witmer · Charlotte, NC · Apr 2011 to Oct 2022
+### IT Manager · Regional HVAC Business · Charlotte, NC · Apr 2011 to Oct 2022
 
 Built and ran the entire IT function from the ground up for a 125-user, three-office HVAC business over an 11.5-year tenure. Systems shipped here remain in production.
 
