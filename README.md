@@ -1,91 +1,76 @@
 # Matt Taylor
 
-**IT Director · Infrastructure, Automation, and AI Engineering**
+**Microsoft Platform, Identity & Automation Engineering**
 
 Huntersville, NC · matt@matt-taylor.tech · [matt-taylor.tech](https://matt-taylor.tech) · [LinkedIn](https://www.linkedin.com/in/matt-taylor-tech) · [GitHub](https://github.com/matt-taylor-tech)
 
-IT Director and hands-on engineer running IT end to end for a national food sales and brokerage organization (1,000+ employees across 80+ locations, three-person team). I build the systems, not just manage them: hybrid Microsoft 365 and Azure at scale, multi-vendor network and telephony across the fleet, a defense-in-depth security and identity stack, and a growing layer of AI and agent engineering. Self-taught product builder and operator (a profitable mobile-app LLC and a small business run on custom software). Most of what I build is running in production or documented at [matt-taylor.tech](https://matt-taylor.tech), so you can verify the work rather than take my word for it.
+I'm a hands-on engineer with more than 15 years in IT, building and operating Microsoft platforms, identity systems, infrastructure, and automation. My work connects Entra ID, Microsoft 365, Intune, Azure, Windows Server, PowerShell, Python, and Microsoft Graph into systems that are easier to administer and maintain.
 
-> Full project write-ups, with architecture and detail, live at **[matt-taylor.tech](https://matt-taylor.tech)**.
+My experience spans building an IT environment from scratch, integrating acquired businesses, and engineering shared platforms for a national organization. Alongside that work, I build software for my own businesses and publish reusable tools.
 
----
+Architecture write-ups and more of my work are at **[matt-taylor.tech](https://matt-taylor.tech)**.
+
+## Selected Public Projects
+
+- **[Entra stale-guest lifecycle automation](https://github.com/matt-taylor-tech/Entra-StaleGuestsCleanup)**: PowerShell automation for guest-account lifecycle management, with managed identity, report-only defaults, staged enforcement, safety limits, failure alerting, and Pester tests.
+- **[Dell warranty to Freshservice sync](https://github.com/matt-taylor-tech/DellWarrantytoFreshserviceAssets)**: Python integration that brings warranty coverage into asset records, with dry-run support, defensive data handling, and tests.
+- **[ScreenConnect endpoint operations toolkit](https://github.com/matt-taylor-tech/sc-remote-endpoint-ops-toolkit)**: Session lookup, diagnostics, command execution, and transcript retrieval for AI coding agents, with operating guardrails.
+- **[Subreddit Sounds](https://github.com/matt-taylor-tech/subreddit-sounds)**: Self-hosted Python application with automated checks, container publishing, health checks, and a repeatable delivery workflow.
 
 ## Experience
 
 ### IT Director · National Food Brokerage · Charlotte, NC · Oct 2022 to Present
 
-Own IT end to end for a national food sales and brokerage organization: 1,000+ employees, 80+ locations, on a three-person team.
+Hired as IT Manager and promoted to IT Director, retaining hands-on engineering responsibility for a national organization of 1,000+ employees across 80+ locations. Direct support scope covered 850 users across 51 offices with a three-person team.
 
-- Run the Microsoft 365 estate (Exchange Online, SharePoint, Teams, OneDrive) and hybrid Active Directory / Entra ID: Conditional Access, MFA, Privileged Identity Management, SSO, and dynamic group-based licensing and access.
-- Led an infrastructure and licensing modernization that consolidated onto Microsoft Fabric F64 and EMS E5, cutting BI licensing cost by roughly 60% and hardening identity without adding a security headcount.
-- Led IT integration for five completed acquisitions on a reusable cross-tenant Microsoft 365 migration toolkit, backed by a 26-page operating playbook.
-- Administer Microsoft Intune across the endpoint fleet, plus a proactive-remediation and endpoint-automation suite (device provisioning, Windows 11 upgrades, bloatware removal, printer and diagnostics tooling).
-- Architected a multi-site Remote Desktop Services platform for roughly 850 users, with a DMZ-isolated gateway, dual-client access, and automated TLS certificate renewal.
-- Operate a defense-in-depth security stack: Microsoft Defender XDR, Conditional Access and PIM, CISA ScubaGear baseline assessments, Unified Audit Log forensics, and authorized web-application penetration testing with formal reporting.
-- Built the internal automation layer: a 70+ script Microsoft 365 PowerShell admin library for monthly compliance reviews, an employee SMS broadcast platform (Power Automate, Graph, Twilio), an Office 365 to Snowflake user sync as a Snowflake-native stored procedure, and a serverless Azure Automation reporting runbook on managed identity.
-- Authored a ten-domain, Python-generated IT documentation framework and an interlocking naming-standards taxonomy across three identity systems (300+ dynamic groups).
-
-**AI and agent engineering**
-
-- Own the company-wide AI program: a three-tier governance framework (a corporate AI policy co-owned with HR and Business Intelligence, an AI-assisted development policy, and a developer handbook with a production-ready repo template) plus the rollout of Claude Enterprise, GitHub Copilot, and Microsoft Copilot Studio agents, backed by a managed developer platform.
-- Architected and deployed an autonomous IT operations agent: a Python and Supabase platform unifying the team's source systems (ITSM, identity, remote support, network, endpoint security) that posts diagnostic notes on new tickets with machine and network context and screenshot reading via vision, running on Azure Functions with a read-and-suggest default and confirm-gated actions.
-- Built and deployed a live Model Context Protocol (MCP) server (Python, FastMCP on Azure Container Apps) exposing the team's operational systems to Claude and Cowork as one namespaced connector of 35 tools, with a set of governed write tools whose trust boundary sits at the identity layer (Entra OAuth connector plus delegated Graph on-behalf-of scoping).
+- Engineered Microsoft 365 and Entra ID administration, identity lifecycle workflows, licensing, group-based access, and endpoint management with Intune.
+- Built PowerShell, Python, Microsoft Graph, and REST integrations connecting HR inputs, identity, business applications, and service operations.
+- Moved recurring automation into Azure Automation and Azure Functions with managed identities, staged deployment, failure alerting, and documented recovery paths.
+- Built reusable Microsoft 365 acquisition tooling for discovery, migration, cutover, validation, and handoff across five completed integrations.
+- Designed and operated Windows Server, Hyper-V, Remote Desktop Services, office networking, Teams Phone, backup, and monitoring platforms.
+- Built governed AI and Model Context Protocol integrations for IT operations, with identity-based authorization and explicit confirmation for state-changing actions. Authored AI-assisted development policies and guidance for reviewable delivery.
+- Established service-management workflows, technical documentation, naming standards, and operational runbooks to make administration repeatable.
 
 ### IT Manager · Regional HVAC Business · Charlotte, NC · Apr 2011 to Oct 2022
 
-Built and ran the entire IT function from the ground up for a 125-user, three-office HVAC business over an 11.5-year tenure. Systems shipped here remain in production.
+Built and ran the IT environment for a 125-user, three-office business over an 11.5-year tenure.
 
-- Architected the network, hybrid Active Directory / Entra ID environment, Hyper-V virtualization, and a three-layer monitoring stack (PRTG, InfluxDB, Grafana) from scratch.
-- Launched the company's first Microsoft 365 / Exchange Online environment in 2014, the origin of 11+ years of M365 administration.
-- Led selection and rollout of a third-party HVAC service-management platform, migrating off a legacy Unix system and moving field technicians from paper work orders to iPads with in-field card processing.
-- Ran two full telephony migrations and a published cost-reduction case study; built brand-distinct company websites end to end.
+- Built the network, Windows Server and Hyper-V environment, Microsoft 365 deployment, and hybrid Active Directory / Entra ID foundation.
+- Integrated two acquired businesses across identity, networking, telephony, and business systems while preserving their separate brands.
+- Selected and rolled out a third-party service-management platform, coordinated the vendor's data conversion from the legacy Unix system, and validated the cutover.
+- Moved field technicians from paper work orders to managed mobile devices with in-field work-order and payment capture.
+- Built monitoring with PRTG, InfluxDB, and Grafana; operated application hosting, backup, telephony, and company websites.
 
 ### HVAC Contractor · May 2002 to Apr 2011
 
-Design, installation, repair, and service of residential and commercial HVAC systems, with end-to-end project management under deadline. Operational rigor and disciplined troubleshooting that transferred directly to IT.
+Designed, installed, repaired, and serviced residential and commercial HVAC systems. Managed projects through completion and developed the practical troubleshooting discipline I bring to IT operations.
 
----
+## Independent Work
 
-## Selected Projects
+### After Hours Data Systems
 
-- **Autonomous IT Operations Agent**: Python + Supabase + Azure Functions platform with a live Claude triage agent (vision, machine/network context, confirm-gated actions).
-- **IT Ops MCP Server**: deployed FastMCP connector (Azure Container Apps) exposing five operational systems as 35 governed tools with identity-layer authorization.
-- **AI Governance & Development Program**: company-wide AI policy, developer handbook, and managed dev platform across 1,000+ employees.
-- **Microsoft Fabric F64 Migration**: moved enterprise BI off 100+ Power BI Pro licenses with zero-downtime cutover, RLS, and external partner sharing.
-- **Multi-site RDS Platform**: ~850 users, split-role and single-server deployments, automated TLS renewal, dual-client access.
-- **[VolleyballEngine](https://mattsvolleyball.com)**: full-stack tournament platform (Next.js, Supabase, Cloudflare Workers): six formats including a Swiss pairing algorithm, RBAC, real-time live scoring, and 1099 payout calculation.
-- **[EPA 608 Practice](https://epa608app.com)**: published iOS and Android study app (Flutter), 4.0 stars and 110+ ratings, with full Spanish localization.
-- **Home lab**: enterprise-style home network and Home Assistant automation at scale (370+ devices, 3,578 entities), plus a woodworking and digital-fabrication shop. See [matt-taylor.tech/maker](https://matt-taylor.tech/maker).
+Started with around 20 apps, unpublished the 19 unprofitable ones, and concentrated development on one product that went on to exceed **50,000 lifetime app sales** across iOS and Android.
 
----
+Expanded from Android to iOS, then migrated to **Flutter and Dart** to maintain both platforms from one codebase. I handle development, store distribution, Python content tooling, and business administration. The product now operates with minimal ongoing upkeep.
 
-## Skills
+### Matt's Volleyball League
 
-**Microsoft hybrid infrastructure**: Azure, Microsoft 365 administration, hybrid AD + Entra ID, Intune / MDM, Windows Server + Hyper-V, RDS / RemoteApp
+Founded and operate a recreational sand volleyball league, including its branding, marketing, finances, and supporting software. Built **[Volleyball Engine](https://matt-taylor.tech/projects/volleyball-engine)** with Next.js, TypeScript, Supabase, and Cloudflare for tournament scheduling, brackets, role-based access, real-time scoring, and payout calculations. The [league website](https://mattsvolleyball.com) connects to the league-management platform for schedules and registration.
 
-**Automation, scripting & AI**: PowerShell (advanced), Python (FastAPI, Flask), Microsoft Graph API, Power Automate, Azure Functions & Automation, Claude API in production (vision, model routing), MCP server authorship (FastMCP), Microsoft Copilot Studio, AI policy & governance
+### Home Lab and Maker Projects
 
-**Networking & telephony**: Cisco Meraki (MX/MR/SM) across 80+ sites, HPE Aruba Instant On, site-to-site VPN, Microsoft Teams Phone
+Run a two-node Hyper-V cluster, dedicated iSCSI storage network, redundant Active Directory, Remote Desktop Services, Veeam backup, segmented networking, containers, and a separate Microsoft 365 test tenant. Outside infrastructure, I work on home automation, woodworking, and digital fabrication. [Explore the maker projects](https://matt-taylor.tech/maker).
 
-**Data & analytics**: Microsoft Fabric F64, Power BI, Snowflake (Python runtime), SQL Server, SQLite
+## Tools and Platforms
 
-**Security & identity**: Microsoft Defender XDR, Conditional Access + MFA + PIM, CISA ScubaGear, Microsoft Purview, Unified Audit Log forensics, authorized web-app penetration testing, PKI / SSL-TLS lifecycle
+- **Microsoft and identity**: Microsoft 365, Entra ID, hybrid Active Directory, Microsoft Graph, Intune, Azure, Windows Server, Hyper-V, RDS
+- **Automation and delivery**: PowerShell, Python, REST APIs, Azure Automation, Azure Functions, GitHub Actions, Docker, Power Automate
+- **Security and operations**: Conditional Access, MFA, PIM, Microsoft Defender, Purview, Freshservice, ITIL, Veeam, monitoring and recovery
+- **Networking and voice**: Cisco Meraki, HPE Aruba, VPN, SD-WAN, Microsoft Teams Phone
+- **Data and application development**: Microsoft Fabric, Power BI, SQL Server, Snowflake, Supabase, FastAPI, Next.js, TypeScript, Astro, Cloudflare, Flutter/Dart, MCP
 
-**Web & app development**: Astro, Next.js + TypeScript, React, Tailwind CSS, Cloudflare Pages / Workers / R2, Supabase (Postgres + RLS), Flutter / Dart
-
-**Cross-cutting operations**: ITIL on Freshservice, cross-tenant M&A migration, documentation-as-code pipelines, naming-standards design, IT policy and runbook authorship
-
----
-
-## Founder Ventures
-
-- **After Hours Data Systems LLC** (2014 to present): self-published EPA 608 Practice on iOS and Android; self-taught cross-platform mobile development (App Inventor to Thunkable to Flutter).
-- **Matt's Volleyball League** (2023 to present): founded and run a recreational sand volleyball league (150 to 200 players per season) on custom software (VolleyballEngine) built and operated end to end.
-
----
-
-## Education & Certifications
+## Education and Certifications
 
 **B.S., Computer Information Systems**, Western Carolina University
 
-*Earlier certifications:* Microsoft Certified Solutions Expert (MCSE), VMware Certified Associate, CompTIA Server+. Current work is best evidenced by the shipped projects above and at [matt-taylor.tech](https://matt-taylor.tech).
+Earlier certifications include Microsoft Certified Solutions Expert, VMware Certified Associate, and CompTIA Server+.
