@@ -4,9 +4,11 @@
 
 Huntersville, NC · matt@matt-taylor.tech · [matt-taylor.tech](https://matt-taylor.tech) · [LinkedIn](https://www.linkedin.com/in/matt-taylor-tech) · [GitHub](https://github.com/matt-taylor-tech)
 
-I'm a hands-on engineer with more than 15 years in IT, building and operating Microsoft platforms, identity systems, infrastructure, and automation. My work connects Entra ID, Microsoft 365, Intune, Azure, Windows Server, PowerShell, Python, and Microsoft Graph into systems that are easier to administer and maintain.
+I'm a hands-on technology leader with more than 15 years in IT, spanning Microsoft platforms, identity, infrastructure, and automation. I combine technical depth with responsibility for priorities, delivery, and long-term operations—taking work from an unclear problem to a reliable, maintainable solution.
 
-My experience spans building an IT environment from scratch, integrating acquired businesses, and engineering shared platforms for a national organization. Alongside that work, I build software for my own businesses and publish reusable tools.
+My experience includes building an IT environment from scratch, integrating acquired businesses, and engineering shared platforms for a national organization. I work independently, communicate clearly, and build tools and practices that help small teams deliver consistently.
+
+Curiosity is a constant in my work. I'm always reading, exploring unfamiliar technologies, and teaching myself new skills, both to solve immediate problems and to pursue ideas that interest me. That curiosity extends into independently developed commercial software, business ownership, and hands-on maker projects.
 
 Architecture write-ups and more of my work are at **[matt-taylor.tech](https://matt-taylor.tech)**.
 
