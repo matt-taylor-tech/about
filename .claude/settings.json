@@ -1,0 +1,9 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(cd /Users/suigeneris/Github && grep -rEn --exclude-dir=node_modules --exclude-dir=.git --exclude-dir=dist --exclude-dir=.astro '\\\\\\(?[0-9]{3}\\\\\\)?[-. ][0-9]{3}[-. ][0-9]{4}|tel:' about afterhoursds.com matt-taylor.tech Resumes 2>/dev/null | head -20)",
+      "Read(//Users/suigeneris/Github/**)",
+      "Bash(cd /Users/suigeneris/Github/afterhoursds.com/src && cat pages/about.astro layouts/BaseLayout.astro components/Header.astro components/Footer.astro components/SectionHeading.astro; cat ../readme.md | head -40; grep -rn \"contact\\\\|mailto\\\\|@afterhours\" --include=*.astro --include=*.ts --include=*.md . | head -20; ls lib)"
+    ]
+  }
+}
