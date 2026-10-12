@@ -21,7 +21,7 @@ Architecture write-ups and more of my work are at **[matt-taylor.tech](https://m
 
 ## Experience
 
-### IT Director · National Food Brokerage · Charlotte, NC · Oct 2022 to Present
+### IT Director · National Food Brokerage · Charlotte, NC · Oct 2022 to Sep 2026
 
 Hired as IT Manager and promoted to IT Director, retaining hands-on engineering responsibility for a national organization of 1,000+ employees across 80+ locations. Direct support scope covered 850 users across 51 offices with a three-person team.
 
