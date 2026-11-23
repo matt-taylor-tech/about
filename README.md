@@ -1,34 +1,16 @@
 # Matt Taylor
 
-**Infrastructure, Automation, Integrations & Software**
+**Infrastructure, Automation & Hands-on IT Leadership**
 
 Charlotte, NC metro · matt@matt-taylor.tech · [matt-taylor.tech](https://matt-taylor.tech) · [LinkedIn](https://www.linkedin.com/in/matt-taylor-tech) · [GitHub](https://github.com/matt-taylor-tech)
 
-I build and run the systems a business depends on. I like figuring out how things work, how they fit together, and how to make them better. Over more than 15 years in IT, that has taken me from building a regional business’s technology foundation from scratch to engineering platforms, standards, and automation for a national organization. I’m comfortable setting the direction and doing the work to get there.
+I built the IT foundation for a regional HVAC business and later ran shared platforms for a national organization. As IT Director, I managed budgets and vendors while continuing to build infrastructure, write automation, and run migrations.
 
 Automation and integration are central to that work. I connect business applications, infrastructure, and operational tools using PowerShell, Python, Logic Apps, Power Automate, and APIs. I care about understanding the requirement, testing what I build, and making sure it can be operated and maintained after release.
 
-I’m always reading, following questions that interest me, and teaching myself new skills. That curiosity has led to commercial mobile software, the software behind Matt’s Volleyball, and a home lab and workshop where I keep exploring.
+I’m always reading, following questions that interest me, and teaching myself new skills. I put those ideas to work in a home lab, a workshop, and the independent products on my portfolio.
 
 Architecture write-ups and more of my work are at **[matt-taylor.tech](https://matt-taylor.tech)**.
-
-## Selected Software & Integration Work
-
-### Matt’s Volleyball / Volleyball Engine
-
-Built [Matt’s Volleyball](https://mattsvolleyball.com) from a pickup group into a league with 200 players per season, four seasons a year. Built its website and [Volleyball Engine](https://volleyballengine.com), the software behind tournament registration, Stripe payments, scheduling, balanced teams, and live scoring on phones and venue TVs.
-
-I own the product, architecture, AI-assisted development, testing, deployment, and ongoing improvements. The platform uses Next.js, TypeScript, Supabase, and Cloudflare. Automated checks gate production deployments. Contractors run nightly league operations, allowing the venture to fit around full-time employment.
-
-### After Hours Data Systems, mobile software
-
-Taught myself mobile development and built around 20 apps, then retired 19 to focus on one profitable product with over **50,000 lifetime purchases**. Rebuilt it in Flutter to maintain iOS and Android from one codebase. I handle development, store distribution, and ongoing maintenance, with occasional upkeep outside employment responsibilities.
-
-### Infrastructure insight and operations tooling
-
-Built workspaces that bring monitoring, remote diagnostics, identity, patching, tickets, and documentation together through vendor APIs and administrative scripts. The goal is to follow a device or user across systems in one workspace, with enough context to understand the problem and act on it.
-
-The implementations include AI-assisted investigation, live API connectors, operational data stores, and reusable diagnostic tools. Access controls and safeguards around changes are designed for each environment. This approach works across professional and independently operated environments.
 
 ## Public Code Examples
 
@@ -39,11 +21,19 @@ These smaller tools provide inspectable examples of my engineering work:
 - **[ScreenConnect endpoint operations toolkit](https://github.com/matt-taylor-tech/sc-remote-endpoint-ops-toolkit)**: Session lookup, diagnostics, command execution, and transcript retrieval for AI coding agents, with operating safeguards.
 - **[Subreddit Sounds](https://github.com/matt-taylor-tech/subreddit-sounds)**: Self-hosted Python application with automated checks, container publishing, health checks, and a repeatable delivery workflow.
 
+## Infrastructure insight and operations tooling
+
+Built workspaces that bring monitoring, remote diagnostics, identity, patching, tickets, and documentation together through vendor APIs and administrative scripts. The goal is to follow a device or user across systems in one workspace, with enough context to understand the problem and act on it.
+
+The implementations include AI-assisted investigation, live API connectors, operational data stores, and reusable diagnostic tools. Access controls and safeguards around changes are designed for each environment. This approach works across professional and independently operated environments.
+
+I keep the independent [product case studies](https://matt-taylor.tech/projects/) on my portfolio.
+
 ## Experience
 
 ### IT Director · National Food Brokerage · Charlotte, NC · Oct 2022 to Sep 2026
 
-Hired as IT Manager and promoted to IT Director, retaining hands-on engineering responsibility for a national organization of 1,000+ employees across 80+ locations. Direct support scope covered 850 users across 51 offices with a three-person team.
+Hired as IT Manager and promoted to IT Director, and continued to run shared platforms for 1,000+ employees across 80+ locations. I led a team of up to three that directly supported 850 users across 51 offices.
 
 - Engineered Microsoft 365 and Entra ID administration, identity lifecycle workflows, licensing, group-based access, and endpoint management with Intune.
 - Built Logic Apps, Power Automate, PowerShell, Python, Microsoft Graph, and REST integrations connecting HR inputs, identity, business applications, and service operations.
