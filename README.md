@@ -33,7 +33,7 @@ I keep the independent [product case studies](https://matt-taylor.tech/projects/
 
 ### IT Director · National Food Brokerage · Charlotte, NC · Oct 2022 to Sep 2026
 
-Hired as IT Manager and promoted to IT Director, and continued to run shared platforms for 1,000+ employees across 80+ locations. I led a team of up to three that directly supported 850 users across 51 offices.
+Hired as IT Manager and promoted to IT Director, and continued to run shared platforms for 1,000+ employees across 80+ locations with an IT team of up to three, including me.
 
 - Engineered Microsoft 365 and Entra ID administration, identity lifecycle workflows, licensing, group-based access, and endpoint management with Intune.
 - Built Logic Apps, Power Automate, PowerShell, Python, Microsoft Graph, and REST integrations connecting HR inputs, identity, business applications, and service operations.
