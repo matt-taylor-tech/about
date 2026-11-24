@@ -40,6 +40,7 @@ Hired as IT Manager and promoted to IT Director, and continued to run shared pla
 - Moved recurring automation into Azure Automation and Azure Functions with managed identities, staged deployment, failure alerting, and documented recovery paths.
 - Built reusable Microsoft 365 acquisition tooling for discovery, migration, cutover, validation, and handoff across five completed integrations.
 - Designed and operated Windows Server, Hyper-V, Remote Desktop Services, office networking, Teams Phone, backup, and monitoring platforms.
+- Ran Docker and Kubernetes in production: Docker hosts on each hypervisor and containers in Azure, and a Kubernetes cluster for the SIEM and monitoring stack.
 - Built governed AI and Model Context Protocol integrations for IT operations, with identity-based authorization and approval safeguards for disruptive actions. Authored AI-assisted development policies and guidance for reviewable delivery.
 - Established service-management workflows, technical documentation, naming standards, and operational runbooks to make administration repeatable.
 
@@ -66,7 +67,7 @@ Run a Hyper-V failover cluster, dedicated iSCSI storage network, redundant Activ
 ## Tools and Platforms
 
 - **Microsoft and identity**: Microsoft 365, Entra ID, hybrid Active Directory, Microsoft Graph, Intune, Azure, Windows Server, Hyper-V, RDS
-- **Automation and delivery**: PowerShell, Python, REST APIs, Azure Automation, Azure Functions, GitHub Actions, Docker, Logic Apps, Power Automate
+- **Automation and delivery**: PowerShell, Python, REST APIs, Azure Automation, Azure Functions, GitHub Actions, Docker, Kubernetes, Logic Apps, Power Automate
 - **Security and operations**: Conditional Access, MFA, PIM, Microsoft Defender, Purview, Freshservice, ITIL, Veeam, monitoring and recovery
 - **Networking and voice**: Cisco Meraki, HPE Aruba, VPN, SD-WAN, Microsoft Teams Phone
 - **Data and application development**: Microsoft Fabric, Power BI, SQL Server, Snowflake, Supabase, FastAPI, Next.js, TypeScript, Astro, Cloudflare, Flutter/Dart, MCP
