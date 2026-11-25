@@ -62,7 +62,7 @@ Designed, installed, repaired, and serviced residential and commercial HVAC syst
 
 ## Home Lab and Maker Projects
 
-Run a Hyper-V failover cluster, dedicated iSCSI storage network, redundant Active Directory, Remote Desktop Services, Veeam offsite backup, segmented networking, containers, and a separate Microsoft 365 test tenant. The lab gives me somewhere to test infrastructure and automation ideas. Outside IT, I work on home automation, woodworking, and digital fabrication. [Explore the maker projects](https://matt-taylor.tech/maker).
+Run two Hyper-V hosts with Hyper-V Replica, a dedicated iSCSI storage network, redundant Active Directory, Remote Desktop Services, Veeam offsite backup, segmented networking, containers, and a separate Microsoft 365 test tenant. I run it as production, with a Wazuh SIEM, alerting and dashboards built as code, and CI on every change, and it's where I prove out infrastructure and automation before I use them at work. Outside IT, I work on home automation, woodworking, and digital fabrication. [Explore the maker projects](https://matt-taylor.tech/maker).
 
 ## Tools and Platforms
 
